@@ -1,0 +1,53 @@
+export const houses = [
+    {
+        name: 'Gryffindor',
+        route: 'gryffindor',
+        sortingHatWords: '"You might belong in Gryffindor, Where dwell the brave at heart, Their daring, nerve, and chivalry. Set Gryffindors apart." - Sorting Hat',
+        description: ['Gryffindor was one of the four Houses of Hogwarts School of Witchcraft and Wizardry and was founded by Godric Gryffindor. Gryffindor instructed the Sorting Hat to choose students possessing characteristics he most valued, such as courage, chivalry, nerve and determination, to be sorted into his house.',
+            'Gryffindor corresponded roughly to the element of fire, and it was for this reason that the colours scarlet and gold were chosen to represent the house. The colour of fire corresponded to that of a lion as well, with scarlet representing the mane and tail and gold representing the coat.'],
+        traits: [`The Gryffindor house emphasised the traits of courage as well as "daring, nerve, and chivalry", and thus its members were generally regarded as brave, though sometimes to the point of recklessness. Some Gryffindors had also been noted to be short-tempered.`,
+            `Notably, Gryffindor house contributed many members to Dumbledore's Army and the Order of the Phoenix, although this may have been because the main members made it a point not to associate with other houses.`,
+            `According to Phineas Nigellus Black, members of other houses, particularly Slytherin, sometimes felt that Gryffindors engaged in 'pointless heroics'. Another Slytherin, Severus Snape, considered many Gryffindors to be self-righteous and arrogant, with no regard for rules.`],
+        image: '/images/gryffindor_icon.png',
+        characterImage: '/images/harrypotter.png'
+    },
+    {
+        name: 'Hufflepuff',
+        route: 'hufflepuff',
+        sortingHatWords: '"You might belong in Hufflepuff, Where they are just and loyal, Those patient Hufflepuffs are true, And unafraid of toil." - Sorting Hat',
+        description: ['Hufflepuff was one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Helga Hufflepuff. Hufflepuff was the most inclusive among the four houses, valuing hard work, dedication, patience, loyalty, and fair play rather than a particular aptitude in its members.',
+            'Hufflepuff corresponded roughly to the element of earth, and it was for that reason that the House colours were chosen: yellow represented wheat, while black was emblematic of soil. The Hufflepuff point hourglass contained yellow diamonds. Students sorted into Hufflepuff often demonstrated exceptional abilities in Herbology, owing to their correspondence to earth.'],
+        traits: ['Students belonging to this house were known to be hard-working, friendly, loyal, honest and rather impartial. It might be that due to their values, Hufflepuffs were not as competitive as the other houses, and were more modest about their accomplishments. Hufflepuff was the most inclusive among the four houses; valuing hard work, dedication, patience, loyalty, and fair play rather than a particular aptitude in its students.',
+            'Hufflepuffs were known to have a strong moral code, and a sense of right and wrong. Hufflepuffs were usually accepting of everyone. Students in Hufflepuff were known to value everyone and treat them as equal.',
+            'Hufflepuff appeared to have the least rivalry with the other houses, except in Quidditch, although the Triwizard Tournament did temporarily put a great deal of strain on the relationship between Gryffindor and Hufflepuff, due to unusual circumstances of the selection of both Gryffindor student Harry Potter and Hufflepuff student Cedric Diggory as champions. This was mended by 1998, where a majority of Hufflepuffs rose to defend Harry from Pansy Parkinson and later helped to defend Hogwarts.'],
+        image: '/images/hufflepuff_icon.png',
+        characterImage: '/images/newtscamander.png'
+    },
+    {
+        name: 'Ravenclaw',
+        route: 'ravenclaw',
+        sortingHatWords: `"Or yet in wise old Ravenclaw, If you've a ready mind, Where those of wit and learning, Will always find their kind." - Sorting Hat`,
+        description: ['Ravenclaw was one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Rowena Ravenclaw. Members of this house were characterised by their wit, learning, and wisdom. The emblematic animal symbol was an eagle, and blue and bronze were its colours. The Head of Ravenclaw was Filius Flitwick, and the House ghost was the Grey Lady, real name Helena Ravenclaw, daughter of Rowena.',
+            'Ravenclaw corresponded roughly to the element of air, and it was for that reason that the House colours were chosen; blue and bronze represented the sky and eagle feathers respectively, both having much to do with air. The Ravenclaw points hourglass contained blue sapphires.'],
+        traits: [`Ravenclaw House prized learning, wisdom, wit, and intellect in its members. Thus, many Ravenclaws tended to be academically motivated and talented students. They also prided themselves on being original in their ideas, and methods. It was not unusual to find Ravenclaw students practising especially different types of magic that other houses might shun. Hermione Granger, an extremely intelligent witch and the top student in her year, was sorted into Gryffindor, though she admitted that the Sorting Hat had seriously considered placing her in Ravenclaw.`,
+            `Often hard-working and diligent, as often was the case with intellectuals with a predisposition for academics, some of the pupils sorted under the blue-bronzed eagle were known to be inclined to dismiss certain social expectations for the sake of satisfying their own intellectual curiosity. Some of these eventually also ended up being not only accepted but even celebrated, in spite of being initially subjected to scorn for their various oddities. Luna Lovegood, for example, was one such student: eccentric to put it at its mildest, she was a Ravenclaw student who initially was bullied for her open defiance of conventionality, but ultimately became a celebrated wizarding naturalist and renowned for her participation in the legendary Battle of Hogwarts and past membership in Dumbledore's Army. Another example would be Professor Filius Flitwick, a half-goblin who might have faced scorn for his short stature earlier in life but went on to become a renowned Duelling Champion, and subsequently one of the finest and most knowledgable Charms Masters in the entirety of the wizarding world during his employment at Hogwarts School of Witchcraft and Wizardry. (The best, according to some of his students).`,
+            `Isolt Sayre, founder of Ilvermorny School of Witchcraft and Wizardry, wanted to be a Ravenclaw as a child, but never got to attend Hogwarts. Her choice of blue as a colour for the Ilvermorny school uniform was inspired by Ravenclaw.`],
+        image: '/images/ravenclaw_icon.png',
+        characterImage: '/images/lunalovegood.png'
+    },
+    {
+        name: 'Slytherin',
+        route: 'slytherin',
+        sortingHatWords: `"Or perhaps in Slytherin, You'll make your real friends, Those cunning folk use any means, To achieve their ends." - Sorting Hat`,
+        description: [`Slytherin was one of the four Houses at Hogwarts School of Witchcraft and Wizardry, founded by Salazar Slytherin. In establishing the house, Salazar instructed the Sorting Hat to pick students who had a few particular characteristics he most valued. Those characteristics included cunning, resourcefulness, leadership, and ambition.`,
+            `Many Slytherin students tended to clique together (often acquiring leaders) which further exemplified Slytherin's ambitious qualities. Examples of these included Draco Malfoy's gang, Merula Snyde's gang, Pansy Parkinson's gang and the Death Eaters.`,
+            `Slytherin corresponded roughly with the element of water due to serpents being commonly associated with the sea and lochs in western European mythology, as well as serpents being physically fluid and flexible animals. Similarly, in Celtic mythology, water is seen as a portal to another world, leading some to believe that the element was chosen to symbolise a Slytherins dream for a world in which their goals and ambitions had finally been achieved. Others speculate that it was chosen to symbolise many Slytherins' hope for a pureblood-only wizarding society`],
+        traits: [`Slytherins tended to be ambitious, shrewd, cunning, strong leaders, and achievement-oriented. They also had highly developed senses of self-preservation. This means that Slytherins tended to hesitate before acting, so as to weigh all possible outcomes before deciding exactly what should be done. `,
+            `According to Albus Dumbledore, the qualities which Salazar valued in the students he had chosen included cleverness, resourcefulness, determination, and "a certain disregard for the rules". Dumbledore noted that all of these were qualities possessed by Harry Potter, who was a Gryffindor but was almost placed in Slytherin.`,
+            `Slytherins tended to take charge and possessed strong leadership skills. They were often self-assured and confident of their own competence and can be very loyal.`,
+            `Slytherin had a well-known reputation for creating Dark Witches and Wizards that many would even say that every Dark Witch or Wizard was actually in Slytherin (it also didn't help that Voldemort himself was in Slytherin too when he was a student at Hogwarts). While it was true that many were in the house, it was untrue to say every single one of them was, as Peter Pettigrew, betrayer of James and Lily, was in Gryffindor and Quirinus Quirrell was in Ravenclaw.`,
+            `In fairer terms, there were many good witches and wizards in the house who opposed the use of the Dark Arts, as well as discrimination based on blood purity, such as Horace Slughorn, Andromeda Tonks, and Leta Lestrange. Andromeda was related to many dark witches and wizards, such as her own sister Bellatrix Lestrange, and brother-in-law Lucius Malfoy, but she chose to forsake the loyalty to her family in favour of marrying the Muggle-born Ted Tonks.`],
+        image: '/images/slytherin_icon.png',
+        characterImage: '/images/severosnape.png'
+    }
+]
